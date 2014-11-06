@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EACR,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,KAAK",
+"sources": ["souls.scss"],
+"names": [],
+"file": "souls.css"
+}
