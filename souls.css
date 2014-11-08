@@ -5,19 +5,20 @@ html, body {
   padding: 0; }
 
 #toolbar {
-  position: relative;
+  position: fixed;
+  top: 0;
   height: 10%;
   width: 100%;
   background: gray;
   min-height: 100px; }
 
 .html {
+  font-size: 250%;
   position: relative;
   height: 25%;
   width: 25%;
   top: 35%;
   margin: auto auto;
-  border: 1px solid pink;
   float: left; }
 
 .souls {
@@ -26,13 +27,11 @@ html, body {
   width: 25%;
   top: 35%;
   margin: auto auto;
-  border: 1px solid pink;
   float: right; }
 
 .container {
   text-align: center;
   position: relative;
-  border: 1px solid pink;
   height: 100%;
   width: 50%;
   margin: 0 auto; }
@@ -48,7 +47,6 @@ html, body {
 
 .menutext {
   margin: auto auto;
-  border: 1px solid black;
   text-align: center;
   vertical-align: middle; }
   .menutext a {
@@ -58,8 +56,7 @@ html, body {
 .main {
   border: 2px solid black;
   width: 10%;
-  margin: 5% auto;
-  overflow: hidden; }
+  margin: 150px auto; }
 
 #footer {
   text-align: center;
@@ -67,7 +64,13 @@ html, body {
   height: 40px;
   bottom: 0;
   position: fixed;
-  background: gray;
-  border: 1px solid yellow; }
+  background: gray; }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; } }
 
 /*# sourceMappingURL=souls.css.map */
