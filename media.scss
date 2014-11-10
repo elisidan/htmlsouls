@@ -1,0 +1,29 @@
+@media screen and (max-width: 424px) {
+	body {
+	background: red;
+	}
+
+	#toolbar {
+		display: inline-flex;
+		.container {
+		display: none;
+		}
+
+		.html {
+		font-size: 250%;
+		float: left;
+		clear: none;
+		width: 50%;
+		top: 0%;
+		}
+
+		.souls {
+		font-size: 250%;
+		float: right;
+		clear: none;
+		width: 50%;
+		top: 0%
+		}
+
+	}
+}

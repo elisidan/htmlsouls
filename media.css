@@ -1,0 +1,22 @@
+@media screen and (max-width: 424px) {
+  body {
+    background: red; }
+
+  #toolbar {
+    display: inline-flex; }
+    #toolbar .container {
+      display: none; }
+    #toolbar .html {
+      font-size: 250%;
+      float: left;
+      clear: none;
+      width: 50%;
+      top: 0%; }
+    #toolbar .souls {
+      font-size: 250%;
+      float: right;
+      clear: none;
+      width: 50%;
+      top: 0%; } }
+
+/*# sourceMappingURL=media.css.map */

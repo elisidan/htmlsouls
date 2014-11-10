@@ -15,6 +15,7 @@ html, body {
 }
 
 .html {
+	text-align: center;
 	font-size: 250%;
 	position: relative;
 	height: 25%;
@@ -25,6 +26,8 @@ html, body {
 }
 
 .souls {
+	text-align: center;
+	font-size: 250%;
 	position: relative;
 	height: 25%;
 	width: 25%;
@@ -51,17 +54,16 @@ html, body {
 	background: purple;
 	}
 
+	.menutext {
+ 	 margin: auto auto;
+ 	 text-align: center;
+ 	 vertical-align: middle; }
+ 		 .menutext a {
+  	  text-decoration: none;
+  	  color: black; }
 
-.menutext {
-	margin: auto auto;
-	text-align: center;
-	vertical-align: middle;
-	a {
-		text-decoration: none;
-		color: black;
-		}
 
-}
+
 .main {
 	border: 2px solid black;
 	width: 10%;
@@ -75,12 +77,4 @@ html, body {
 	bottom: 0;
 	position: fixed;
 	background: gray;
-}
-
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-
-html, body {
-	height: 100%; width: 100%; margin: 0; padding: 0;
-	}
-	
 }

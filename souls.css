@@ -13,6 +13,7 @@ html, body {
   min-height: 100px; }
 
 .html {
+  text-align: center;
   font-size: 250%;
   position: relative;
   height: 25%;
@@ -22,6 +23,8 @@ html, body {
   float: left; }
 
 .souls {
+  text-align: center;
+  font-size: 250%;
   position: relative;
   height: 25%;
   width: 25%;
@@ -49,9 +52,10 @@ html, body {
   margin: auto auto;
   text-align: center;
   vertical-align: middle; }
-  .menutext a {
-    text-decoration: none;
-    color: black; }
+
+.menutext a {
+  text-decoration: none;
+  color: black; }
 
 .main {
   border: 2px solid black;
@@ -65,12 +69,5 @@ html, body {
   bottom: 0;
   position: fixed;
   background: gray; }
-
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0; } }
 
 /*# sourceMappingURL=souls.css.map */
