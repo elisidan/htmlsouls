@@ -1,0 +1,44 @@
+@media screen and (max-width: 441px) {
+  body {
+    background: red; }
+
+  #toolbar {
+    display: inline-flex; }
+    #toolbar .container {
+      display: none; }
+    #toolbar .html {
+      font-size: 250%;
+      float: left;
+      clear: none;
+      width: 50%;
+      top: 0%; }
+    #toolbar .souls {
+      font-size: 250%;
+      float: right;
+      clear: none;
+      width: 50%;
+      top: 0%; }
+
+  .main {
+    min-width: 75px; } }
+@media screen and (min-width: 442px) and (max-width: 967px) {
+  body {
+    background: blue; } }
+.menubox {
+  font-size: 50%;
+  min-width: 100px;
+  height: 25%;
+  margin: 2px 0%; }
+
+.main {
+  min-width: 90px;
+  min-height: 30px; }
+
+@media screen and (min-width: 968px) {
+  .menubox {
+    font-size: auto;
+    width: 20%;
+    height: 50%;
+    margin: 0 5px; } }
+
+/*# sourceMappingURL=media.css.map */
